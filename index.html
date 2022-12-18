@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -27,10 +30,17 @@
         color: hsl(228, 45%, 44%);
       }
       p {
-        font-size: 25px;
+        font-family: "Libre Franklin";
+        font-size: 30px;
+        color: hsl(0, 0%, 59%);
+      }
+      h5 {
+        font-family: "Libre Franklin";
+        font-weight: normal;
+        font-size: 16px;
       }
       button {
-        background-color: blue;
+        background-color: hsl(223, 87%, 63%);
         border: none;
         color: white;
         padding: 10px 20px;
@@ -65,13 +75,18 @@
       .logo {
         text-align: center;
       }
+      span {
+        font-weight: bold;
+        color: black;
+      }
     </style>
   </head>
   <body>
     <div class="logo">
       <img src="/images/logo.svg" />
+
       <p>We are launching <span>soon!</span></p>
-      <h4>Subscribe and get notified</h4>
+      <h5>Subscribe and get notified</h5>
       <form>
         <input type="email" />
         <button>Notify Me</button>
