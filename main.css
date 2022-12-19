@@ -1,0 +1,66 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  p {
+    font-family: "Libre Franklin";
+    font-size: 30px;
+    color: hsl(0, 0%, 59%);
+  }
+  h5 {
+    font-family: "Libre Franklin";
+    font-weight: normal;
+    font-size: 16px;
+  }
+  button {
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 10%;
+  }
+ .image-dashboard {
+  text-align: center;
+ }
+  .socialmedia-header {
+    padding-top: 5%;
+    font-size: x-large;
+    text-align: center;
+    justify-content: space-between;
+    width: 10%;
+    height: 20px;
+    margin: 0 5px;
+  }
+  .attribution {
+    padding-top: 10%;
+  }
+
+  body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    text-align: center;
+  }
+  span {
+    font-weight: bold;
+    color: black;
+  }
+  li {
+    list-style-type: none;
+
+    font-size: 16pt;
+  }
+
+  .mail {
+    text-align: center;
+  }
